@@ -7,7 +7,7 @@
 
 ## Objetivo
 
-- [ ] Inicializar o projeto com as dependencias  
+- [x] Inicializar o projeto com as dependencias  
 - [ ] Home page  
     - [ ] Desktop  
     - [ ] Mobile
