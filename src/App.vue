@@ -5,12 +5,12 @@
 </script>
 
 <template>
-  <v-app>
-    <v-main>
-      <v-container fluid>
-    <v-row no-gutters >
+  <v-app >
+    <v-main >
+      <v-container fluid >
+    <v-row no-gutters  >
         <Menu />
-      <v-col>
+      <v-col >
         <RouterView />
       </v-col>
     </v-row>
@@ -21,8 +21,8 @@
 
 
 <style>
+.apexcharts-text{
 
-
-
-
+  fill:rgb(134, 130, 130)
+} 
 </style>

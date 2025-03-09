@@ -1,13 +1,11 @@
 <script setup lang="ts">
-//
+
 </script>
 
 <template>
     <v-container class="fill-height">
       <v-responsive
-        class="align-centerfill-height mx-auto"
-        max-width="900"
-      >
+        class="align-centerfill-height mx-auto  responsive">
         <v-img
           class="mb-4"
           height="150"
@@ -33,7 +31,7 @@
             >
   
               <template #subtitle>
-                <div class="text-h6">
+                <div class="text-cards">
                   A temperatura do seu dia, a qualquer momento, em qualquer lugar.
                 </div>
               </template>
@@ -50,7 +48,7 @@
             >
   
               <template #subtitle>
-                <div class="text-h6 ">
+                <div class="text-cards">
                   Saiba exatamente o clima onde você está, para um dia mais preparado!
                 </div>
               </template>
@@ -67,7 +65,7 @@
             >
   
               <template #subtitle>
-                <div class="text-h6">
+                <div class="text-cards">
                   O clima do seu destino, na ponta dos dedos. Conecte-se com o tempo.
                 </div>
               </template>
@@ -80,4 +78,43 @@
     </v-container>
   </template>
   
-  
+<style scoped>
+.responsive {
+  max-width: 900px;
+}
+.text-cards{
+  font-size: 1.25rem; 
+  font-weight: bold;  
+  margin: 0.67em 0;  
+  white-space: normal;
+}
+
+@media (min-width: 601px) and (max-width: 700px) {
+  .responsive {
+    max-width: 600px;
+  }
+  .text-cards{
+    font-size: 1rem; 
+    font-weight: bold;  
+    margin: 0.67em 0;  
+    white-space: normal;
+  }
+}
+ 
+@media (max-width: 600px) {
+  .responsive {
+    max-width: 400px;
+  }
+  .text-cards{
+    font-size: 0.85rem; 
+  font-weight: bold;  
+  margin: 0.67em 0;  
+  white-space: normal;
+
+  }
+}
+
+
+
+
+</style>
