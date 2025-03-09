@@ -103,6 +103,7 @@
       font-weight: bold;
       margin: 0.67em 0;
       white-space: normal;
+      padding: 0;
 
     }
   }
