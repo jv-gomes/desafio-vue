@@ -21,3 +21,8 @@
     - [ ] Mobile
 - [ ] Adicionar apis  
 - [ ] Subi para Vercel 
+
+
+
+## URL da VERCEL
+- https://desafio-vue-gamma.vercel.app/
