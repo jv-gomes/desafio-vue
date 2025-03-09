@@ -5,6 +5,7 @@
 -> vuetify  
 -> vue router  
 -> Axios   
+-> ApexCharts , Vue3-ApexCharts
 
 ## Objetivo
 
