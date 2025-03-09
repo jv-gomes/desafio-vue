@@ -10,17 +10,17 @@
 ## Objetivo
 
 - [x] Inicializar o projeto com as dependencias  
-- [ ] Home page  
-    - [ ] Desktop  
+- [x] Home page  
+    - [x] Desktop  
     - [ ] Mobile
-- [ ] Dashboard Page  
-    - [ ] Desktop  
-    - [ ] Mobile
+- [x] Dashboard Page  
+    - [x] Desktop  
+    - [x] Mobile
 - [ ] Login/ register Page??  
     - [ ] Desktop  
     - [ ] Mobile
-- [ ] Adicionar apis  
-- [ ] Subi para Vercel 
+- [x] Adicionar apis  - api de temperatura
+- [x] Subi para Vercel 
 
 
 

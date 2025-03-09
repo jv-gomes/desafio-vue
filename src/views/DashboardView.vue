@@ -210,6 +210,8 @@ function time(value: string[]): string[] {
   }
 }
 
+
+
 .row1 {
   padding-top: 13% !important;
 
